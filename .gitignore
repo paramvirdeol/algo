@@ -1,1 +1,8 @@
 *.suo
+*.dll
+*.cache
+Debug/
+Release/
+.vs
+.git
+obj/

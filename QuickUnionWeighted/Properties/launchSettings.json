@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "QuickUnionWeighted": {
+      "commandName": "Project",
+      "commandLineArgs": "Inputs.txt"
+    }
+  }
+}

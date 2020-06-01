@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "QuickFind": {
+      "commandName": "Project",
+      "commandLineArgs": "Inputs.txt"
+    }
+  }
+}

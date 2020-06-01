@@ -8,9 +8,53 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEEK1", "WEEK1", "{1C79E3C2-CEC9-40C9-8A69-C88A39C475B6}"
+	ProjectSection(SolutionItems) = preProject
+		Week1.md = Week1.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnionFind", "UnionFind", "{DF217E4B-B3FC-4254-B92C-889B6F371CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickFind", "QuickFind\QuickFind.csproj", "{4B8A091A-FFC5-4DE2-95A6-728FE842167F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickUnion", "QuickUnion\QuickUnion.csproj", "{DB4A6801-D688-4E9E-8557-6388EBA0BCCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickUnionWeighted", "QuickUnionWeighted\QuickUnionWeighted.csproj", "{2A52EE00-48C9-4BB8-AB64-CDC8C4C044B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickUnionPathCompression", "QuickUnionPathCompression\QuickUnionPathCompression.csproj", "{F4FF3D03-94DC-4B1E-977F-BB43AB8AC34B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B8A091A-FFC5-4DE2-95A6-728FE842167F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8A091A-FFC5-4DE2-95A6-728FE842167F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8A091A-FFC5-4DE2-95A6-728FE842167F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8A091A-FFC5-4DE2-95A6-728FE842167F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4A6801-D688-4E9E-8557-6388EBA0BCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4A6801-D688-4E9E-8557-6388EBA0BCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4A6801-D688-4E9E-8557-6388EBA0BCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4A6801-D688-4E9E-8557-6388EBA0BCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A52EE00-48C9-4BB8-AB64-CDC8C4C044B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A52EE00-48C9-4BB8-AB64-CDC8C4C044B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A52EE00-48C9-4BB8-AB64-CDC8C4C044B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A52EE00-48C9-4BB8-AB64-CDC8C4C044B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FF3D03-94DC-4B1E-977F-BB43AB8AC34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FF3D03-94DC-4B1E-977F-BB43AB8AC34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FF3D03-94DC-4B1E-977F-BB43AB8AC34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FF3D03-94DC-4B1E-977F-BB43AB8AC34B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF217E4B-B3FC-4254-B92C-889B6F371CC5} = {1C79E3C2-CEC9-40C9-8A69-C88A39C475B6}
+		{4B8A091A-FFC5-4DE2-95A6-728FE842167F} = {DF217E4B-B3FC-4254-B92C-889B6F371CC5}
+		{DB4A6801-D688-4E9E-8557-6388EBA0BCCD} = {DF217E4B-B3FC-4254-B92C-889B6F371CC5}
+		{2A52EE00-48C9-4BB8-AB64-CDC8C4C044B2} = {DF217E4B-B3FC-4254-B92C-889B6F371CC5}
+		{F4FF3D03-94DC-4B1E-977F-BB43AB8AC34B} = {DF217E4B-B3FC-4254-B92C-889B6F371CC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1613E6A8-088C-4FFA-B671-F59B757471B6}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "QuickUnion": {
+      "commandName": "Project",
+      "commandLineArgs": "Inputs.txt"
+    }
+  }
+}
